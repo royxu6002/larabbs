@@ -10,7 +10,7 @@
                         Profile
                     </strong></h5>
                     <p>
-                        What makes a boy grows to a man.
+                        {{ $user->introduction }}
                     </p>
                     <h5><strong>
                         Created at
