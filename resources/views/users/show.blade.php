@@ -15,7 +15,7 @@
                     <h5><strong>
                         Created at
                     </strong></h5>
-                    <p>January 11th, 2021</p>
+                    <p>{{ $user->created_at->diffForHumans() }}</p>
                 </div>
             </div>
         </div>
